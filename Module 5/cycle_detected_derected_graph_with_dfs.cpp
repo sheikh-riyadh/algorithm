@@ -33,7 +33,7 @@ int main()
     cin >> n >> e;
 
     memset(isVisited, false, sizeof(isVisited));
-    memset(pathVisited, false, sizeof(pathVisited));
+    memset(pathVisited, -1, sizeof(pathVisited));
     answer = false;
 
     while (e--)
